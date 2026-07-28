@@ -1,0 +1,9 @@
+public interface EmployeeRepository
+        extends JpaRepository<Employee, Integer> {
+}
+public interface DepartmentRepository
+        extends JpaRepository<Department, Integer> {
+}
+public interface SkillRepository
+        extends JpaRepository<Skill, Integer> {
+}
